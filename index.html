@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manglam Awning </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link src="script.js"></script>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-black Fixed-top">
+        <div class="container">  
+            <a class="navbar-brand" href="#">
+                <img src="img/FinLogo.jpg" alt="Logo" width="100">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <a>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#About">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Service">Our Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Project">Our Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contact">Contact Us</a>  
+                    </li>
+                </ul>
+            </a>
+            </div>
+            <div id="callme">
+                <a href="tel:+91 6306605410" style="color:rgba(0, 255, 60, 0.996); float:right; margin-right: 20px; margin-top: 20px; font-size: 30px;">
+                    <div id="callme main">
+                        <div id="callme icon">
+                            <i class="fas fa-phone"></i>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- *
+    *
+    * -->
+    <!--Header-->
+    
+        <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" style="background-image: url('img/Hero1.jpeg');">
+                    <div class="carousel-caption">
+                        <h1 class="fw-bold">Fixed Awning </h1>
+                        <p>Commercial And Residential Awning <br></p>
+                        <a href="tel:+91 6306605410" target="_blank" rel="noopener noreferrer">
+                            <i class="btn btn-primary"> Enquiry Now </i>
+                        </a>>
+                    </div>
+                </div>
+                <div class="carousel-item" style="background-image: url('img/victorian-awning-depot-1.png');">
+                    <div class="carousel-caption">
+                        <h1 class="fw-bold">Folding Awning </h1>
+                        <p>Bringing technology and creativity together.<br>Let's build something great.</p>
+                        <a href="tel:+91 6306605410" target="_blank" rel="noopener noreferrer">
+                            <i class="btn btn-primary">Enquiry Now </i>
+                        </a>
+                    </div>
+                </div>
+                <div class="carousel-item" style="background-image: url('img/best-retractable-patio-awnings.webp');">
+                    <div class="carousel-caption">
+                        <h1 class="fw-bold">Terrace & Balcony Awnings</h1>
+                        <p>Partner with us for outstanding results.<br>Join us in our journey.</p>
+                        <a href="tel:+91 6306605410" target="_blank" rel="noopener noreferrer">
+                            <i class="btn btn-primary">Enquiry Now </i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+    <header>
+        <div id="callme">
+            <a href="tel:+91 6306605410" style="color:rgb(0, 255, 60); float:right; margin-right: 20px; margin-top: 20px; font-size: 30px;">
+                <div id="callme main">
+                    <div id="callme icon">
+                        <i class="fas fa-phone"></i>
+                </div>
+            </a>
+        </div>
+    <!--About Us-->
+    <section class="About" id="About">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h2>About Us</h2>
+                <ul class="nav nav-tabs" id="aboutTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="company-tab" data-bs-toggle="tab" data-bs-target="#company" type="button" role="tab">Our Company</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="mission-tab" data-bs-toggle="tab" data-bs-target="#mission" type="button" role="tab">Our Mission</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="vision-tab" data-bs-toggle="tab" data-bs-target="#vision" type="button" role="tab">Our Vision</button>
+                    </li>
+                </ul>
+                <div class="tab-content mt-3" id="aboutTabContent">
+                    <div class="tab-pane fade show active" id="company" role="tabpanel">
+                        <h3>Our Company</h3>
+                        <p>Welcome to Manglam Awning , where innovation meets craftsmanship in the world of shade solutions. 
+                            With a passion for creating functional and aesthetically pleasing spaces, we specialize in designing, manufacturing, 
+                            and installing a diverse range of awnings and tensile structures that enhance the beauty and comfort of your environment.</p>
+                            <a href="tel:+91 6306605410" target="_blank" rel="noopener noreferrer">
+                                <i class="btn btn-primary">Enquiry Now</i>
+                            </a>
+                    </div>
+                    <div class="tab-pane fade" id="mission" role="tabpanel">
+                        <h3>Our Journey</h3>
+                        <p>Founded in [2017], Manglam Awning began with a vision to transform outdoor spaces into comfortable, stylish retreats. 
+                            Our journey started with a small team of dedicated professionals who shared a common goal: to provide high-quality,
+                            customizable shade solutions that cater to the unique needs of our clients. 
+                            Over the years, we have grown into a reputable name in the industry, 
+                            known for our commitment to excellence and customer satisfaction.</p>
+                            <a href="tel:+91 6306605410" target="_blank" rel="noopener noreferrer">
+                                <i class="btn btn-primary">Enquiry Now</i>
+                            </a>
+                    </div>
+                    <div class="tab-pane fade" id="vision" role="tabpanel">
+                        <h3>Our Vision</h3>
+                        <p>Our vision is to continue being a leader in the shade solutions industry by consistently providing innovative,
+                            high-quality products and exceptional customer service. We strive to create outdoor spaces that inspire and delight, 
+                            enhancing the quality of life for our clients and their communities.</p>
+                            <a href="tel:+91 6306605410" target="_blank" rel="noopener noreferrer">
+                                <i class="btn btn-primary">Enquiry Now</i>
+                            </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <br>
+                <img src="img/About.jpeg" class="img-fluid" alt="About Us Image">
+            </div>
+        </div>
+    </section>
+    <!--Our Services-->
+    <section class="Service" id="Service">
+    <div class="container py-5">
+        <h2 class="text-center mb-3">Our Services</h2>
+        <p class="text-center mx-auto w-75">We offer a range of high-quality services to cater to your needs. 
+            Our expert team ensures top-notch solutions tailored just for you.</p>
+        
+        <div class="row mt-4">
+            <!-- Service 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card text-center p-4">
+                    <i class="fas fa-cloud fa-3x mb-3"></i>
+                    
+                    <h4>Fixed & Folding Awning & Canopies</h4>
+                    <img src="img/Servise1.jpg" alt="">
+                    <p>Fixed and folding awnings and canopies are versatile structures used for shade, protection, 
+                        and aesthetic enhancement in various settings. Here's a quick overview</p>
+                        <a href="tel:+91 6306605410" target="_blank" rel="noopener noreferrer">
+                            <i class="btn btn-primary">Enquiry Now</i>
+                        </a>
+                </div>
+            </div>
+            
+            <!-- Service 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card text-center p-4">
+                    <i class="fas fa-cloud fa-3x mb-3"></i>
+                    <h4>Fixed Awning Sheds</h4>
+                    <img src="img/Servise2.jpg" alt="">
+                    <p> These are permanent structures attached to buildings, often used over windows, doors, or patios.
+                        Materials include aluminum, steel, or fabric, and they come in various designs like bullnose, hut-shaped, 
+                        or tensile awnings</p>
+                        <a href="tel:+91 6306605410" target="_blank" rel="noopener noreferrer">
+                            <i class="btn btn-primary">Enquiry Now</i>
+                        </a>
+                </div>
+            </div>
+            
+            <!-- Service 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="card text-center p-4">
+
+                    <i class="fas fa-cloud fa-3x mb-3"></i>
+                    <h4>Terrace & Balcony Awnings</h4>
+                    <img src="img/Servise3.jpg" alt="">
+                    <p> Terrace and balcony awnings are functional and stylish additions that enhance outdoor spaces 
+                        by providing shade and protection. Here's a brief overview of options</p>
+                        <a href="tel:+91 6306605410" target="_blank" rel="noopener noreferrer">
+                            <i class="btn btn-primary">Enquiry Now</i>
+                        </a>
+                 </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Service 4 -->
+            <div class="col-md-4 mb-4">
+                <div class="card text-center p-4">
+                    <i class="fas fa-cloud fa-3x mb-3"></i>
+                    <h4>Fixed  Awnings</h4>
+                    <img src="img/Servise4.jpg" alt="">
+                    <p>Our Fixed  awnings are crafted to add a touch of elegance to your windows while providing effective protection from 
+                        the sun and rain. Available in various styles and materials, our window awnings are both functional and visually appealing.</p>
+                        <a href="tel:+91 6306605410" target="_blank" rel="noopener noreferrer">
+                            <i class="btn btn-primary">Enquiry Now</i>
+                        </a>
+                </div>
+            </div>
+            
+            <!-- Service 5 -->
+            <div class="col-md-4 mb-4">
+                <div class="card text-center p-4">
+                    <i class="fas fa-cloud fa-3x mb-3"></i>
+                    <h4>Manual & Motorized Awnings</h4>
+                    <img src="img/Servise5.jpg" alt="">
+                    <p>Manual and motorized awnings are popular choices for shading and protecting outdoor spaces. Here's a breakdown of each.</p>
+                    <a href="tel:+91 6306605410" target="_blank" rel="noopener noreferrer">
+                        <i class="btn btn-primary">Enquiry Now</i>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Service 6 -->
+            <div class="col-md-4 mb-4">
+                <div class="card text-center p-4">
+                    <i class="fas fa-cloud fa-3x mb-3"></i>
+                    <h4>Car Parking & Tensile Sheds</h4>
+                    <img src="img/Servise6.jpg" alt="  ">
+                    <p>Car parking and tensile sheds are practical solutions for protecting vehicles and creating shaded spaces. Here's a quick overview.</p>
+                    <a href="tel:+91 6306605410" target="_blank" rel="noopener noreferrer">
+                        <i class="btn btn-primary">Enquiry Now</i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!--Our Projects-->
+    <section class="Project" id="Project">
+    <div class="container py-5">
+        <h2 class="text-center mb-4">Our Projects</h2>
+        <ul class="nav nav-tabs justify-content-center mb-4" id="projectTabs">
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#branding">Products</a>
+            </li>
+        </ul> 
+        
+        <div class="tab-content">
+            <div class="tab-pane fade show active" id="all">
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="project-img">
+                            <img src="img/Footer1.jpg" alt="Project 1">
+                            <div class="overlay">Project 1</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="project-img">
+                            <img src="img/Footer2.jpg" alt="Project 2">
+                            <div class="overlay">Project 2</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="project-img">
+                            <img src="img/Footer3.jpg" alt="Project 3">
+                            <div class="overlay">Project 3</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="project-img">
+                            <img src="img/Footer4.jpg" alt="Project 4">
+                            <div class="overlay">Project 4</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="project-img">
+                            <img src="img/Footer5.jpg" alt="Project 5">
+                            <div class="overlay">Project 5</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="project-img">
+                            <img src="img/Footer1.jpg" alt="Project 6">
+                            <div class="overlay">Project 6</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!--Contact Us-->
+    <section class="Contact" id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="mb-4">Get in Touch</h2>
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Your Name</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>   
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Your Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Your Message</label>
+                            <textarea class="form-control" id="message" rows="4" required></textarea>
+                        </div>            
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <p>Our Team Will Contact you soon</p>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <h2 class="mb-4">Find Us</h2>
+                    <div class="ratio ratio-16x9">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345093775!2d144.95373631550468!
+                            3d-37.81627944202181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d5df0f0f0f%3A0x1d4f32817b1e6f1
+                            5!2sMelbourne!5e0!3m2!1sen!2sau!4v1625564699243!5m2!1sen!2sau" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Footer-->
+    <footer>
+        <a href="https://www.instagram.com/manglamawning01/" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-instagram social-icon"></i>
+        </a> 
+        <a href="mailto:your-mangalamawning@gmail.com" target="_blank" rel="noopener noreferrer">
+            <i class="fas fa-envelope social-icon"></i>
+        </a>
+        <a href="https://wa.me/916306605410" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-whatsapp social-icon"></i>
+            </a>
+        <a href="tel:+91 6306605410" target="_blank" rel="noopener noreferrer">
+            <i class="fas fa-phone social-icon"></i>
+        </a>
+        <p>Address :-S.No-113 BHAGPADA FATHERWADI 
+            NR:-MAMA HOUSE GOKHIWARE (401202)</p>
+    </footer>
+</body>
+</html>
